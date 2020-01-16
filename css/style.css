@@ -651,11 +651,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .glasses_logo {
-	-webkit-transform:rotate(35deg);
-	-moz-transform:rotate(35deg);
-	-ms-transform: rotate(35deg);
-	-o-transform: rotate(35deg);
-	-transform: rotate(35deg);
+	-webkit-transform:rotate(15deg);
+	-moz-transform:rotate(15deg);
+	-ms-transform: rotate(15deg);
+	-o-transform: rotate(15deg);
+	-transform: rotate(15deg);
 	max-width: 40%;
 	height: auto;
 }
