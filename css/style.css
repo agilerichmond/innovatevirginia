@@ -650,6 +650,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+#intro .glasses_logo {
+	-webkit-transform:rotate(35deg);
+	-moz-transform:rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+	-transform: rotate(35deg);
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
