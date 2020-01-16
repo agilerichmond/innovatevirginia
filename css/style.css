@@ -514,10 +514,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 	-ms-transform: rotate(-10deg);
 	-o-transform: rotate(-10deg);
 	-transform: rotate(-10deg);
-	max-width: 25%;
+	max-width: 35%;
 	height: auto;
-	position: absolute;
-	top: 300px;
+	position: relative;
+	bottom: 150px;
+	left: 200px;
 	z-index: 3;
 }
 
