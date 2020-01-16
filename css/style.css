@@ -508,21 +508,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
-#intro .logo_container {
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-	z-index: 3;
-}
-
 #intro .glasses_logo {
-	-webkit-transform:rotate(15deg);
-	-moz-transform:rotate(15deg);
-	-ms-transform: rotate(15deg);
-	-o-transform: rotate(15deg);
-	-transform: rotate(15deg);
-	max-width: 40%;
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-transform: rotate(-10deg);
+	max-width: 25%;
 	height: auto;
+	position: absolute;
+	top: 300px;
+	z-index: 3;
 }
 
 
