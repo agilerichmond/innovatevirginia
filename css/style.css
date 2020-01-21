@@ -471,7 +471,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100vh;
   background: url(../img/innovate_conference_background.jpg) top center;
 /*   background-size: cover; */
-  background-size: contain;
+/* set the background-size to 100% width, auto height */
+  background-size: 100%;
   overflow: hidden;
   position: relative;
 }
