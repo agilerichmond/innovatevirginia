@@ -473,6 +473,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*   background-size: cover; */
 /* set the background-size to 100% width, auto height */
   background-size: 100%;
+  background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
 }
