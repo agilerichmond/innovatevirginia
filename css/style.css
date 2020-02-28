@@ -912,6 +912,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#speakers-details .details p.bio {
+  color: #112363;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Schedule Section
