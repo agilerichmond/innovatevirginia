@@ -874,6 +874,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+#speakers-details .details h4 {
+  color: #BB00BB;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
 #speakers-details .details .social {
   margin-bottom: 15px;
 }
