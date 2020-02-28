@@ -1217,6 +1217,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.4s ease-in-out;
 }
 
+#supporters p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.5);
+	font-style: italic;
+}
+
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
