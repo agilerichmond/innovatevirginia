@@ -537,6 +537,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #BB00BB;
 }
 
+#intro h2 {
+  color: #BB00BB
+}
+
 #intro p {
   color: #ebebeb;
   font-weight: 700;
@@ -753,6 +757,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+#update ul {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#update strong {
+  color: #BB00BB;
 }
 
 
