@@ -469,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/innovate_conference_background.jpg) top center;
+  background: url(../img/coffee-virtual-conference-bg.jpg) top center;
   background-size: cover;
 /*  background-size: 100%;
   background-repeat: no-repeat; */
@@ -676,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/coffee-virtual-conference-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -715,12 +715,76 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#about h2 span {
+  color: #BB00BB;
+}
+
+#about p span {
+  color: #BB00BB;
+}
+
+
+/*--------------------------------------------------------------
+# cfs (Call for Speakers) Section
+--------------------------------------------------------------*/
+
+#cfs {
+  background: url("../img/microphone-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+#cfs:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#cfs h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#cfs h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#cfs p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#cfs h2 span {
+  color: #BB00BB;
+}
+
+#cfs p span {
+  color: #BB00BB;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Update Section
 --------------------------------------------------------------*/
 
 #update {
-  background: url("../img/doctor-vaccine-bg.jpg");
+  background: url("../img/video-conference-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
