@@ -735,7 +735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #cfs {
-  background: url("../img/microphone-bg.jpg");
+  background: url("../img/microphone-bg.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -835,7 +835,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#update strong {
+#update span {
   color: #BB00BB;
 }
 
@@ -1319,20 +1319,44 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# supporters Section
+# sponsors Section
 --------------------------------------------------------------*/
 
-#supporters {
-  padding: 60px 0;
+#sponsors {
+  background: url("../img/teamwork-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+
 }
 
-#supporters .supporters-wrap {
+#sponsors:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#sponsors h2 {
+  color: #fff;
+}
+
+#sponsors span {
+  color: #bb00bb;
+}
+
+#sponsors .sponsors-wrap {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo {
+#sponsors .supporter-logo {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1343,28 +1367,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
 }
 
-#supporters .supporter-logo:hover img {
+#sponsors .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-#supporters img {
+#sponsors img {
   transition: all 0.4s ease-in-out;
 }
 
-#supporters p {
+#sponsors p {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.5);
 	font-style: italic;
+	color: #fff;
 }
 
 /*--------------------------------------------------------------
