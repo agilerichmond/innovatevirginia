@@ -477,6 +477,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#intro img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 #intro:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
