@@ -737,6 +737,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #CC2936;
 }
 
+#about img {
+  float: right;
+  margin: 5px;
+}
+
 
 
 /*--------------------------------------------------------------
