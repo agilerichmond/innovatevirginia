@@ -274,7 +274,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 .nav-menu > li {
@@ -301,7 +301,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: #fff;
+  color: #FFFFFC;
   background: #BB00BB;
   padding: 7px 22px;
   border-radius: 50px;
@@ -327,7 +327,7 @@ h6 {
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: #fff;
+  background: #FFFFFC;
   border-radius: 3px;
 }
 
@@ -347,7 +347,7 @@ h6 {
 
 .nav-menu ul li:hover > a {
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 .nav-menu ul ul {
@@ -372,7 +372,7 @@ h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 /* Mobile Nav Styling */
@@ -401,7 +401,7 @@ h6 {
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #FFFFFC;
   font-size: 17px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -426,7 +426,7 @@ h6 {
   z-index: 99;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
@@ -459,7 +459,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 /*--------------------------------------------------------------
@@ -532,7 +532,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #intro h1 {
-  color: #fff;
+  color: #FFFFFC;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -541,6 +541,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 span {
   color: #BB00BB;
+}
+
+#intro h1 a {
+  color: #CC2936;
 }
 
 #intro h2 {
@@ -638,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #FFFFFC;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #BB00BB;
@@ -646,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro .about-btn:hover {
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -686,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #FFFFFC;
   padding: 60px 0 40px 0;
 }
 
@@ -704,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #about h3 {
@@ -712,13 +716,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #4D9DE0;
 }
 
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #about h2 span {
@@ -729,6 +733,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #BB00BB;
 }
 
+#about a {
+  color: #CC2936;
+}
 
 
 
@@ -741,7 +748,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #FFFFFC;
   padding: 60px 0 40px 0;
 }
 
@@ -759,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #cfs h3 {
@@ -767,13 +774,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #cfs p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #cfs h2 span {
@@ -796,7 +803,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #FFFFFC;
   padding: 60px 0 40px 0;
 }
 
@@ -814,7 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #update h3 {
@@ -828,13 +835,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #update p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #update ul {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #update span {
@@ -868,14 +875,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #keynotes .speaker .details h3 {
-  color: #fff;
+  color: #FFFFFC;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 #keynotes .speaker .details p {
-  color: #fff;
+  color: #FFFFFC;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
@@ -886,7 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #keynotes .speaker .details a {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #keynotes .speaker .details a:hover {
@@ -926,7 +933,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #keynotes-details .details .social a:hover {
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #keynotes-details .details .social a i {
@@ -965,14 +972,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details h3 {
-  color: #fff;
+  color: #FFFFFC;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 #speakers .speaker .details p {
-  color: #fff;
+  color: #FFFFFC;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
@@ -983,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker .details a {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #speakers .speaker .details a:hover {
@@ -1030,7 +1037,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers-details .details .social a:hover {
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #speakers-details .details .social a i {
@@ -1061,6 +1068,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 60px 60px 60px;
 }
 
+#schedule h1 {
+  font-weight: 600;
+  color: #FFFFFC;
+}
+
+#schedule h2 {
+  font-weight: 300;
+  color: #FFFFFC;
+}
+
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;
@@ -1079,13 +1096,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   font-weight: 600;
   background-color: #0e1b4d;
-  color: #fff;
+  color: #FFFFFC;;
   padding: 10px 100px;
 }
 
 #schedule .nav-tabs a.active {
   background-color: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #schedule .sub-heading {
@@ -1107,7 +1124,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item:hover {
-  background-color: #fff;
+  background-color: #FFFFFC;
 }
 
 #schedule .schedule-item time {
@@ -1190,11 +1207,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #venue .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #venue .venue-info p {
-  color: #fff;
+  color: #FFFFFC;
   margin-bottom: 0;
 }
 
@@ -1204,7 +1221,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-gallery {
   overflow: hidden;
-  border-right: 3px solid #fff;
+  border-right: 3px solid #FFFFFC;
   border-bottom: 3px solid #fff;
 }
 
@@ -1332,7 +1349,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #fff;
+  color: #FFFFFC;
   padding: 60px 0 40px 0;
 
 }
@@ -1348,7 +1365,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #sponsors h2 {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #sponsors span {
@@ -1390,7 +1407,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	text-align: center;
 	text-shadow: 2px 1px 2px rgba(150, 150, 150, 0.5);
 	font-style: italic;
-	color: #fff;
+	color: #FFFFFC;
 }
 
 /*--------------------------------------------------------------
@@ -1468,11 +1485,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe .section-header h2,
 #subscribe p {
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #subscribe input {
-  background: #fff;
+  background: #FFFFFC;
   color: #060c22;
   border: 0;
   outline: none;
@@ -1487,7 +1504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 9px 25px;
   cursor: pointer;
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
@@ -1548,7 +1565,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.2s;
   background-color: #BB00BB;
   border: 0;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #buy-tickets .card .btn:hover {
@@ -1567,7 +1584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.2s;
   background-color: #BB00BB;
   border: 0;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
@@ -1668,7 +1685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #BB00BB;
   border: 0;
   padding: 10px 40px;
-  color: #fff;
+  color: #FFFFFC;
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
@@ -1705,7 +1722,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #footer .footer-top .footer-info img {
@@ -1718,7 +1735,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #footer .footer-top .social-links a {
@@ -1738,13 +1755,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .social-links a:hover {
   background: #BB00BB;
-  color: #fff;
+  color: #FFFFFC;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #FFFFFC;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1808,7 +1825,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: #FFFFFC;
   transition: 0.3s;
   cursor: pointer;
 }
