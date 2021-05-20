@@ -1173,6 +1173,131 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
+/* 
+--------------------------------------------------------------
+# channels Section
+--------------------------------------------------------------
+ */
+#channels {
+  background: url(../img/coffee-virtual-conference-bg.jpg) top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #FFFFFC;
+  padding: 60px 0 40px 0;
+}
+
+#channels:before {
+  content: "";
+  background: rgba(6, 12, 34, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#channels h1 {
+  font-weight: 600;
+  color: #FFFFFC;
+}
+
+#channels h2 {
+  font-weight: 300;
+  color: #FFFFFC;
+}
+
+#channels .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#channels .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#channels .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #FFFFFC;;
+  padding: 10px 100px;
+}
+
+#channels .nav-tabs a.active {
+  background-color: #BB00BB;
+  color: #FFFFFC;
+}
+
+#channels .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+#channels .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#channels .channels-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#channels .channels-item:hover {
+  background-color: #FFFFFC;
+}
+
+#channels .channels-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#channels .channels-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#channels .channels-item .speaker img {
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#channels .channels-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#channels .channels-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#channels .channels-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
@@ -1898,6 +2023,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #sponsors {
     background-attachment: fixed;
+  }
+  #channels {
+  	background-attachment: fixed;
   }
 
 
