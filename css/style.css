@@ -1179,7 +1179,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------
  */
 #channels {
-  background: url(../img/coffee-virtual-conference-bg.jpg) top center;
+  background: url(../img/video-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1476,7 +1476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #sponsors {
-  background: url(../img/coffee-virtual-conference-bg.jpg) top center;
+  background: url(../img/thanks-bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
